@@ -11,3 +11,11 @@
   python3 -m venv 'name_of_directory'
 - Then activate with
   source name_of_directory/bin/activate
+
+# Setting up Django
+- Installing Django to your computer
+- Command: python3 -m pip install Django
+
+# Starting project
+- Once you pick a suitable name for your Django project, navigate where you want to store your code
+- Run: django-admin startproject my_tennis_club

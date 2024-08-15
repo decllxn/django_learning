@@ -69,6 +69,11 @@
 - To update records that are already in the database, we first have to get the record we want to update
 - example: from members.model import Member
 - (x = Member.objects.all()[4]), x represents the member at index 4
+- You can update with say, x.firstname = 'new_name'
+
+# Django Delete Data
+- To delete a record in a table, start by getting what you want to delete by importing
+- Example: from members.models import Member
 
 
 

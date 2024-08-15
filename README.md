@@ -61,6 +61,9 @@
 - When you define/describe a Model in the models.py file, you must run a command to actually create a table in the database
 - Run: python3 manage.py makemigrations members
 
+# DJANGO Insert Data
+- We use the python interpreter(Python shell) to add some members to it
+- Run: python3 manage.py shell
 
 
 

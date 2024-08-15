@@ -65,7 +65,10 @@
 - We use the python interpreter(Python shell) to add some members to it
 - Run: python3 manage.py shell
 
-
+# Django Update Data
+- To update records that are already in the database, we first have to get the record we want to update
+- example: from members.model import Member
+- (x = Member.objects.all()[4]), x represents the member at index 4
 
 
 

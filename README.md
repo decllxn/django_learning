@@ -56,6 +56,10 @@
 - Here we will see how Django works with data
 - In Django, data is created in objects, called model  and is actually tables in a database
 - Models are found in the models.py file
+- When we created the Django project, we got an empty SQLite database
+- By default, all Models created in the Django project will be created as tables in this Database
+- When you define/describe a Model in the models.py file, you must run a command to actually create a table in the database
+- Run: python3 manage.py makemigrations members
 
 
 
